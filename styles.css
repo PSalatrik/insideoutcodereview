@@ -1,0 +1,115 @@
+body{
+	margin-top: 32px;
+}
+
+p{
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 22px;	
+}
+
+h1{
+	font-size: 45px;
+	font-weight: 400;
+	color:#8B0101;
+}
+
+h2{
+	color:#8B0101;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+
+h3{
+	color: #368bd1;
+}
+
+h5{
+	margin-top: 26px;
+	color:#8B0101;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+h6{
+	 color: #368bd1;
+	 font-size: 24px;
+}
+
+.row{
+	margin-bottom: 32px;
+
+}
+
+.poloroid{
+	background-color: #f8f8ff;
+  -moz-transform:rotate(-5deg);  
+  -webkit-transform:rotate(-5deg);  
+  -o-transform:rotate(-5deg);  
+  -ms-transform:rotate(-5deg); 
+	margin-right: -15px;
+	height: 375px;
+	width: 375px;
+	padding: 16px;
+	border: 1px solid #f1f2f2;
+	overflow: hidden;
+	box-shadow: -3px 3px 5px 1px #888888;
+}
+
+.poloroid img {
+	height: 280px;
+	width: 345px;
+	margin-bottom: 16px;
+}
+
+.poloroid:hover{
+	cursor: pointer;
+	background-color: #f1f2f2;
+}
+
+#para-one{
+	display: none;
+}
+
+#para-two{
+	display: none;
+}
+
+#para-three{
+	display: none;
+}
+
+#slide{
+	margin-top: 32px;
+	height: 10px;
+	width: 100%;
+	background-color: #f1f2f2;
+	border-radius: 40%;
+}
+
+.draggable{
+	  margin-bottom: 10px;
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-top: 10px solid red;
+}
+
+#low{
+	text-align: right;
+}
+
+#medium {
+	text-align: center;
+}
+
+#high{
+	text-align: left;
+}
+
+.videos img {
+	height: auto;
+	max-width: 450px;
+}
